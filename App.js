@@ -2,15 +2,12 @@ import React from "react";
 import GroceryItem from "./GroceryItem";
 
 function App() {
-  function handleCLick() {
-    alert(`${props.name} added to the list`);
-  }
   return (
     <div>
-      <GroceryItem name="Eggs" onClick={handleClick} />
-      <GroceryItem name="Banana" onClick={handleClick} />
-      <GroceryItem name="Strawberry" onClick={handleClick} />
-      <GroceryItem name="Bread" onClick={handleClick} />
+      <GroceryItem name="Eggs" />
+      <GroceryItem name="Banana" />
+      <GroceryItem name="Strawberry" />
+      <GroceryItem name="Bread" />
     </div>
   );
 }
